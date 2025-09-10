@@ -1,0 +1,121 @@
+header {
+    height: 10vh;
+    background-color: blue;
+    border: solid 2px black;
+    margin: 0.2vw;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu {
+    background-color: rgba(0,0,0,0.3);
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+}
+
+/* #menu ul {
+    padding: 1.0vw;
+} */
+
+#inicio {
+    background-color: green;
+    height: 18vh;
+    padding: 1.5vw;
+    text-align: center;
+}
+
+#produtos {
+    background-color: orange;
+    height: 30vh;
+    padding: 1.5vw;
+    text-align: center;
+    border: 2px solid black;
+    border: 0.5vh;
+    margin-top: 0.5vh;
+}
+
+#clientes {
+    height: 22vh;
+    background-color: gold;
+    padding: 1.5vw;
+    text-align: center;
+    border: solid 2px black;
+}
+
+#parceiros {
+    height: 16vh;
+    background-color: lightgreen;
+    padding: 1.5vw;
+    text-align: center;
+}
+
+#imagens {
+    height: 22vh;
+    background-color: magenta;
+    padding: 1.5vw;
+    text-align: center;
+}
+
+#fatecFranca {
+    height: 10vh;
+    background-color: cornflowerblue;
+    padding: 1.5vw;
+    text-align: center;
+}
+
+.voltarTopo {
+    position: fixed;
+    bottom: 0vh;
+    right: 0.2vw;
+
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+
+    font-size: 12px;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.voltarTopo:hover {
+    background-color: rgba(0,0,0,0.6);
+    transition: 0.3s;
+}
+
+#logoFatec {
+    margin-left: 1vw;
+    opacity: 1.0;
+    filter: alpha(opacity=50);
+}
+
+#logoFatec {
+    /* margin-left: 1vw; */
+    opacity: 0.1;
+    filter: alpha(opacity=50);
+}
+
+#sacola {
+    margin-left: 80vw;
+    opacity: 1.0;
+    filter: alpha(opacity=60);
+}
+
+#sacola:hover {
+    /* margin-left: 90vw; */
+    opacity: 0.1;
+    filter: alpha(opacity=100);
+}

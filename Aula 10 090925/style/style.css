@@ -1,0 +1,142 @@
+header {
+    height: 14vh;
+    background-color: chartreuse;
+    border: solid 2px black;
+    margin: 0.2vw;
+}
+
+#menu {
+    padding: 1.1vw;
+}
+
+#menu ul li {
+    display: inline;
+
+}
+
+#menu {
+    background-color: rgba(0,0,0,0.3);
+    text-align: center; /* right foi o que ele colocou eu usei center */
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+}
+
+
+#inicio {
+    height: 35vh;
+    background-color: blueviolet;
+    padding: 1.5vw;
+    text-align: center;
+}
+
+#produtos {
+    height: 60vh;
+    background-color: darkgreen;
+    padding: 1.5vw;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 20px 30px;
+    margin-top: 0.5vh;
+}
+
+#clientes {
+    height: 45vh;
+    background-color: gold;
+    padding: 1.5vw;
+    text-align: center;
+    border: solid 2px black;
+}
+
+#parceiros {
+    height: 60vh;
+    background-color: lightgreen;
+    padding: 1.5vw;
+    text-align: center;
+}
+
+#imagens {
+    height: 45vh;
+    background-color: magenta;
+    padding: 1.5vw;
+    text-align: center;
+}
+
+#fatecfranca {
+    height: 50vh;
+    background-color: orange;
+    padding: 1.5vw;
+    text-align: center;
+}
+
+.voltartopo {
+    position: fixed;
+    bottom: 6vh;
+    right: 0.2vw;
+
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+
+    font-size: 12px;
+    padding: 10px;
+    transition: 0.2s;
+
+}
+
+.voltartopo:hover {
+    background-color: rgba(0,0,0,0.6);
+    transition: 0.3s;
+}
+
+#logofatec {
+    margin-left: 1vw;
+    opacity: 1.0;
+    filter: alpha(opacity=30);
+}
+
+#logofatec:hover {
+    opacity: 0.1;
+    filter: alpha(opacity=50);
+}
+
+#sacola{
+    margin-left: 90vw;
+    opacity: 1.0;
+    filter: alpha(opacity=60);
+}
+
+#sacola:hover{
+    opacity: 0.1;
+    filter: alpha(opacity=100);
+}
+
+#figInicio {
+    /* margin: 5px; */
+    border: solid 2px red;
+    margin: auto;
+    width: 20%;
+}
+
+#figProdutos {
+    border: solid 2px black;
+    width: 40%;
+}
+
+footer {
+    height: 13vh;
+    background-color: crimson;
+    padding: 1.5vw;
+    text-align: center;
+}
